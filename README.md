@@ -1,5 +1,6 @@
 # Bitmap-Based SpMV with Tensor Cores
 
+I encountered some issues during the publication process and mistakenly submitted a draft that contains numerous typos. Please find the correct version of the paper [here](bmp.pdf). Sorry for any inconvenience. 
 
 ## How to build
 Cmake and CUDA are required. Modification to the CMakeLists.txt files may be necessary, e.g. to change GPU architecture.
