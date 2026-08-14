@@ -1,3 +1,5 @@
+
+
 # Bitmap-Based SpMV with Tensor Cores
 
 I encountered some issues during the publication process and mistakenly submitted a draft that contains numerous typos. Please find the correct version of the paper [here](bmp.pdf). Sorry for any inconvenience. 
@@ -7,7 +9,7 @@ Cmake and CUDA are required. Modification to the CMakeLists.txt files may be nec
 
 Instructions:
 1. Download the source code into a folder e.g. Spaden.
-3. Inside Spaden and command:
+2. Inside Spaden and command:
 
 > mkdir build  && cd build && cmake  -DCMAKE_BUILD_TYPE=Release .. && make -j && cd ..
 
@@ -21,4 +23,3 @@ For testing Spaden, the executable accepts graphs formatted in `mtx` or binary `
 > `./build/examples/spmv_float -i /input/path`
 
 > `./build/examples/spmv_half -i /input/path`
-
